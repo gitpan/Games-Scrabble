@@ -1,7 +1,9 @@
-Games/Scrabble version 0.91
+Games/Scrabble version 0.99
 ===========================
 
 INSTALLATION
+
+Please use Games::Literati
 
 To install this module type the following:
 

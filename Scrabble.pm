@@ -5,7 +5,7 @@ use Carp;
 
 require Exporter;
 
-our $VERSION    = 0.91;
+our $VERSION    = 0.99;
 our @ISA        = qw( Exporter );
 our @EXPORT_OK  = qw( validate generate );
 
@@ -73,13 +73,15 @@ __END__
 
 =head1 NAME
 
-B<Games::Scrabble> -- validate and generate scrabble words
+B<Games::Scrabble> -- please use Games::Literati, for a complete
+                      Literati/Scrabble resolver.
 
 =head1 SYNOPSIS
 
     use Games::Scrabble;
 
 =head1 DESCRIPTION
+
 
 B<Games::Scrabble> provides functiones to validate and generate words 
 of Scrabble game.
@@ -129,15 +131,6 @@ Example 3:
 
 find out if "qat", "qatw" are acceptable.
 
-=head1 TRICK and TIPS
-
-You may purposely use more blank tiles (?) to see what kind of tile 
-exchange could bring you a bingo.
-
-=head1 TODOS
-
-More flexible word generator, score calculator etc. Please send comments 
-and suggestions to my email address shown below.
 
 =head1 AUTHOR
 
